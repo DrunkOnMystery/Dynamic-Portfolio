@@ -1,9 +1,17 @@
+@media(min-width: 576px) {
+    html {
+        margin-left: 20px;
+        margin-right: 20px;
+}
+}
 body {
-    background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/198071_503524242887_1051_n.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=WlFmHPkEoqMAX9RgDnS&_nc_ht=scontent-iad3-1.xx&oh=ea416c3de76d108991957872d9a9b56c&oe=5F7BD457) no-repeat center center fixed;
+    background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/198071_503524242887_1051_n.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=WlFmHPkEoqMAX9RgDnS&_nc_ht=scontent-iad3-1.xx&oh=ea416c3de76d108991957872d9a9b56c&oe=5F7BD457);
+    background-position: center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
 }
 
 header {
@@ -24,9 +32,25 @@ h1 {
 .container {
     margin-top: 10px;
 }
-
+.col-4 {
+    float: left;
+}
 .col-8 {
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: left;
+    float: left;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+#me-and-will {
+    max-height: 50%;
+    float: right;
 }
