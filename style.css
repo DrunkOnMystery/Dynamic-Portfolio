@@ -42,7 +42,7 @@ h1 {
     float: left;
 }
 
-h3 {
+#intro {
     font-size: 45px;
 }
 
@@ -64,6 +64,7 @@ h4 {
     padding-right: 10px;
 }
 
-.row {
-    padding-top: 20px;
+#contact-info {
+    text-align: left;
+    line-height: 2;
 }
