@@ -65,8 +65,9 @@ h4 {
 }
 
 #contact-info {
+    padding-top: 10px;
     text-align: left;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .port-pic {
