@@ -51,6 +51,14 @@ h4 {
 }
 
 #me-and-will {
-    max-height: 50%;
+    min-height: 35%;
+    max-width: 40%;
     float: right;
 }
+
+#me-and-nate {
+    min-height: 35%;
+    max-width: 40%;
+    float: left;
+}
+
