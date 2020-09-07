@@ -54,11 +54,16 @@ h4 {
     min-height: 35%;
     max-width: 40%;
     float: right;
+    padding-left: 10px;
 }
 
 #me-and-nate {
     min-height: 35%;
     max-width: 40%;
     float: left;
+    padding-right: 10px;
 }
 
+.row {
+    padding-top: 20px;
+}
