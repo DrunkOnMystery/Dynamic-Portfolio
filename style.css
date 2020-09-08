@@ -1,16 +1,14 @@
 html {
     margin-left: 20px;
     margin-right: 20px;
-  }
+    min-height: 100%;
+}
 
 body {
     background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/198071_503524242887_1051_n.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=WlFmHPkEoqMAX9RgDnS&_nc_ht=scontent-iad3-1.xx&oh=ea416c3de76d108991957872d9a9b56c&oe=5F7BD457);
-    background-position: center center fixed;
-    background-repeat: no-repeat;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 header {
@@ -78,15 +76,9 @@ h4 {
     max-height: 150px;
 }
 
-.col-6 {
-    margin-top: 10px;
-    padding: 20px;
-    text-align: center;
-}
-
 .col-md-4 {
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -95,9 +87,9 @@ h4 {
     margin-top: 10px;
 }
 
-@media only screen and (max-width: 414px) {
+@media (max-width: 576px) {
     html {
-    margin-left: 0px;
-    margin-right: 0px;
-    }
+        margin-left: 0px;
+        margin-right: 0px;
+    } 
 }
