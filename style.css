@@ -1,9 +1,8 @@
-@media(min-width: 400px) {
-    html {
-        margin-left: 20px;
-        margin-right: 20px;
-}
-}
+html {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 body {
     background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/198071_503524242887_1051_n.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=WlFmHPkEoqMAX9RgDnS&_nc_ht=scontent-iad3-1.xx&oh=ea416c3de76d108991957872d9a9b56c&oe=5F7BD457);
     background-position: center center fixed;
@@ -90,4 +89,11 @@ h4 {
 .about-me-text {
     padding: 20px;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+    html {
+    margin-left: 0px;
+    margin-right: 0px;
+    }
 }
