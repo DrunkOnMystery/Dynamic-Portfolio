@@ -24,6 +24,10 @@ h1 {
     float: left;
 }
 
+h2 {
+    text-align: center;
+}
+
 #this-is-me {
     max-height: 35%;
     float: left;
@@ -71,7 +75,7 @@ h4 {
 }
 
 .port-pic {
-    max-height: 200px;
+    max-height: 150px;
 }
 
 .col-6 {
