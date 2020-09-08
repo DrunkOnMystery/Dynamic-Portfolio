@@ -1,7 +1,6 @@
 html {
     margin-left: 20px;
     margin-right: 20px;
-    min-height: 100%;
 }
 
 body {
@@ -38,18 +37,15 @@ h2 {
     float: left;
 }
 .col-8 {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     text-align: left;
     float: left;
+    padding-left: 10%;
 }
 
 #intro {
     font-size: 45px;
-}
-
-h4 {
-    font-size: 30px;
 }
 
 #me-and-will {
@@ -76,9 +72,15 @@ h4 {
     max-height: 150px;
 }
 
+.col-6 {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
 .col-md-4 {
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -87,9 +89,12 @@ h4 {
     margin-top: 10px;
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     html {
         margin-left: 0px;
         margin-right: 0px;
     } 
+    .col-8 {
+        font-size: 20px;
+    }
 }
