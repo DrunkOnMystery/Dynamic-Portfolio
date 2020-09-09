@@ -3,10 +3,12 @@
 
 <head>
     <title>Portfolio - Contact Page</title>
+    <link rel="reset" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Benjamin A. Brumby</h1>
@@ -29,13 +31,21 @@
     </header>
 
     <main>
-        <div id="contact-info">
-            <h2>CONTACT INFO:</h2>
-            <br>
-            <h3>Email: <a href="mailto:bbrumby00@gmail.com">Click Here</a></h3>
-            <br>
-            <h3>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/benjamin-brumby-98183546/">Click Here</a>
-            </h3>
+        <div class=contact-div>
+            <form id="contact-form">
+                <label id="name-label" for="name">Name:</label>
+                <br>
+                <input type="text" id="name" placeholder="John Doe" required />
+                <br>
+                <label id="email-label" for="email">Email:</label>
+                <br>
+                <input type="email" id="email" placeholder="name@gmail.com" required />
+                <br>
+                <label id="message" for="name">Leave A Message:</label>
+                <br>
+                <textarea rows=10 cols="100"></textarea>
+                <br>
+                <button id="submit" type="submit">Click Here To Submit!</button>
         </div>
     </main>
 </body>
