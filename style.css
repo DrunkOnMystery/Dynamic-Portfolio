@@ -1,6 +1,7 @@
 html {
     margin-left: 20px;
     margin-right: 20px;
+    height: 100%;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+ 
 }
 
 header {
@@ -23,11 +25,6 @@ h1 {
 
 h2 {
     text-align: center;
-}
-
-#this-is-me {
-    min-height: 50%;
-    float: left;
 }
 
 .container {
@@ -89,8 +86,9 @@ h2 {
 }
 
 .about-me-text {
-    margin: 10%;
+    margin: 2.5%;
     line-height: 2.1;
+    font-size: 18px;
 }
 
 .contact-div {
