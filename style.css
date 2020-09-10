@@ -1,15 +1,14 @@
-html {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+ html {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
 main {
     background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/198071_503524242887_1051_n.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=WlFmHPkEoqMAX9RgDnS&_nc_ht=scontent-iad3-1.xx&oh=ea416c3de76d108991957872d9a9b56c&oe=5F7BD457);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 2000px;
- 
+    height: 1600px;
 }
 
 header {
@@ -17,6 +16,8 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    min-width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -32,22 +33,15 @@ h2 {
     min-width: 100%;
 }
 
-.col-4 {
-    float: left;
-}
-.col-8 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: left;
-    float: left;
-    padding-left: 10%;
-}
-
 .col {
     max-width: 100%;
 }
-#intro {
-    font-size: 45px;
+
+.about-me-text {
+    margin: 2.5%;
+    line-height: 2.1;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #me-and-will {
@@ -64,31 +58,20 @@ h2 {
     margin-left: 10%;
 }
 
-#contact-info {
-    padding-top: 10px;
-    text-align: left;
-    line-height: 1.5;
-}
-
 .port-pic {
     max-height: 150px;
+    margin-top: 80px;
 }
 
-.col-6 {
-    margin-top: 10px;
-    padding: 20px;
-}
-
-.col-md-4 {
+/* if you have to update this, make this again with sub-rows */
+.col-md-4 .col-sm-6 {
     margin-top: 10px;
     padding: 20px;
     text-align: center;
 }
 
-.about-me-text {
-    margin: 2.5%;
-    line-height: 2.1;
-    font-size: 18px;
+h6 {
+    text-align: center;
 }
 
 .contact-div {
@@ -109,12 +92,9 @@ textarea {
     overflow: auto;
 }
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     html {
         margin-left: 0px;
         margin-right: 0px;
-    } 
-    .col-8 {
-        font-size: 20px;
     }
 }
