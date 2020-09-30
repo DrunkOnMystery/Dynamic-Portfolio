@@ -1,8 +1,9 @@
+ /* General layout margins */
  html {
         margin-left: 20px;
         margin-right: 20px;
     }
-
+/* Set background image */
 main {
     background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/198071_503524242887_1051_n.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=WlFmHPkEoqMAX9RgDnS&_nc_ht=scontent-iad3-1.xx&oh=ea416c3de76d108991957872d9a9b56c&oe=5F7BD457);
     background-size: cover;
@@ -10,7 +11,7 @@ main {
     background-position: center center;
     height: 1600px;
 }
-
+/* Color and styling for the main header */
 header {
     background-color: darkslategrey;
     padding-top: 10px;
@@ -19,45 +20,42 @@ header {
     min-width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* Push my name to the left */
 h1 {
     float: left;
 }
 
-h2 {
-    text-align: center;
-}
-
+/* Styling for the card container on the portfolio page */
 .card-container {
     margin-top: 20%;
     min-width: 100%;
     text-align: center;
     justify-content: center;
 }
-
+/* CSS for the main text block on the index page */
 .container {
     margin-top: 20%;
     min-width: 100%;
 }
-
+/* CSS for the main column on the index page */
 .col {
     max-width: 100%;
 }
-
+/* styling for the text block on the index page */
 .about-me-text {
     margin: 2.5%;
     line-height: 2.1;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Styling for the picture of me with my son, Will */
 #me-and-will {
     margin-right: 10%;
     max-width: 30%;
     float: right;
     padding-left: 20px;
 }
-
+/* Styling for the picture of me with my son, Nate */
 #me-and-nate {
     max-width: 30%;
     float: left;
@@ -65,10 +63,7 @@ h2 {
     margin-left: 10%;
 }
 
-h6 {
-    text-align: center;
-}
-
+/* Styling for the main form data on the contact page, lines 73-89 */
 .contact-div {
     margin: 20px;
     line-height: 2.5;
@@ -86,12 +81,7 @@ textarea {
     resize: both;
     overflow: auto;
 }
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
+/* Styling for the cards on the portfolio page, lines 91-111 */
 .card-img-top {
     max-width: 300px;
     height: 250px;
