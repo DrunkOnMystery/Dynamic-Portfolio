@@ -59,15 +59,17 @@ h2 {
 }
 
 .port-pic {
-    max-height: 150px;
+    max-height: 100px;
+    width: auto;
     margin-top: 80px;
 }
 
 /* if you have to update this, make this again with sub-rows */
-.col-md-4 .col-sm-6 {
+.col-md-4 .col-sm-12 {
     margin-top: 10px;
     padding: 20px;
     text-align: center;
+    overflow: scroll;
 }
 
 h6 {
@@ -92,9 +94,14 @@ textarea {
     overflow: auto;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* 
 @media only screen and (max-width: 576px) {
     html {
         margin-left: 0px;
         margin-right: 0px;
     }
-}
+} */
