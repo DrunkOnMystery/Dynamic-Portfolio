@@ -27,14 +27,17 @@ h1 {
 
 /* Styling for the card container on the portfolio page */
 .card-container {
-    margin-top: 20%;
+    margin-top: 15%;
     min-width: 100%;
     text-align: center;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 /* CSS for the main text block on the index page */
 .container {
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     min-width: 100%;
 }
 /* CSS for the main column on the index page */
@@ -81,25 +84,31 @@ textarea {
     resize: both;
     overflow: auto;
 }
-/* Styling for the cards on the portfolio page, lines 91-111 */
+/* Styling for the cards on the portfolio page, lines 88-113 */
 .card-img-top {
     max-width: 300px;
     height: 250px;
 }
 
 .card {
-    max-width: 250px;
-    height: 500px;
-    float: left;
+    max-width: 300px;
+    height: 600px;
     overflow: auto;
     margin: 30px;
 }
 
 .row {
     margin-right: 30px;
-    margin-left: 40px;
+    margin-left: 30px;
+    justify-content: center;
 }
 
 .card-body {
     background-color: transparent;
+}
+
+.img-fluid {
+    overflow: auto;
+    max-width: auto;
+    max-height: 500px;
 }
