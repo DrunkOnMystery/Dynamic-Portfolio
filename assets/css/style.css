@@ -66,6 +66,15 @@ h1 {
     margin-left: 10%;
 }
 
+#Ben_and_Mandy_Div {
+    text-align: center;
+}
+
+#me-and-Mandy {
+    max-width: 40%;
+    float: right;
+}
+
 /* Styling for the main form data on the contact page, lines 73-89 */
 .contact-div {
     margin: 20px;
@@ -92,7 +101,7 @@ textarea {
 
 .card {
     max-width: 300px;
-    height: 600px;
+    height: 500px;
     overflow: auto;
     margin: 30px;
 }
